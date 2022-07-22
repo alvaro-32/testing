@@ -2,7 +2,8 @@ kind: pipeline
 type: docker
 name: testing
 
-  steps:
+steps:
     - name: TestCase
       image: aqmarket/robotframework
-      commands: robot -d results testing.robot
+      commands:
+         - robot -d results testing.robot
