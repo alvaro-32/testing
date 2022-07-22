@@ -4,6 +4,6 @@ name: testing
 
 steps:
     - name: TestCase
-      image: aqmarket/robotframework
+      image: aqmarket/robotframework:DV-102
       commands:
          - robot -d results testing.robot
